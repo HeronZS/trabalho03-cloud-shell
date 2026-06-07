@@ -1,0 +1,15 @@
+[INFO] Removendo estrutura antiga se existir...
+[OK] Estrutura antiga removida.
+[INFO] Criando estrutura de diretórios do Estoque...
+[OK] Diretórios criados com sucesso.
+[INFO] Criando arquivos iniciais...
+[OK] Arquivos iniciais criados.
+[INFO] Estrutura de diretórios criada:
+/app/estoque
+/app/estoque/logs
+/app/estoque/produtos
+/app/estoque/fornecedores
+/app/estoque/relatorios
+/app/estoque/pedidos
+/app/estoque/backups
+[OK] Script 03_estrutura.sh finalizado.

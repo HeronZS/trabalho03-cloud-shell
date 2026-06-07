@@ -1,0 +1,9 @@
+[INFO] Coleta iniciada em: 07/06/2026 18:42:47
+[INFO] Uso de CPU: 0.0%
+[OK] CPU dentro do limite.
+[INFO] Uso de memória RAM: 31%
+[OK] Memória dentro do limite.
+[INFO] Uso de disco: 55%
+[OK] Disco dentro do limite.
+[OK] Apache em execução.
+[OK] Script 07_monitoramento.sh finalizado.

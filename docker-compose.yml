@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  estoque-linux:
+    build: .
+    container_name: trabalho03-linux
+    ports:
+      - "8080:80"
+    volumes:
+      - ./scripts:/app/scripts
+      - ./source:/var/www/html
+      - ./backups:/app/estoque/backups
+      - ./logs:/app/estoque/logs
+    stdin_open: true
+    tty: true

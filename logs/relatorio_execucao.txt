@@ -1,0 +1,61 @@
+========================================
+  RELATÓRIO OPERACIONAL - ESTOQUE CLOUD
+  Projeto: Sistema de Gestão de Estoque
+  Instituição: Unidavi
+  Disciplina: Cloud Computing
+  Data/Hora: 07/06/2026 18:43:04
+========================================
+
+--- USO DE DISCO ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         6.7G  3.6G  3.1G  55% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root       6.7G  3.6G  3.1G  55% /app/scripts
+tmpfs           455M     0  455M   0% /proc/acpi
+tmpfs           455M     0  455M   0% /proc/scsi
+tmpfs           455M     0  455M   0% /sys/firmware
+
+--- USO DOS DIRETÓRIOS DO ESTOQUE ---
+4.0K	/app/estoque/backups
+8.0K	/app/estoque/fornecedores
+20K	/app/estoque/logs
+8.0K	/app/estoque/pedidos
+8.0K	/app/estoque/produtos
+4.0K	/app/estoque/relatorios
+
+--- STATUS DO APACHE ---
+[OK] Apache em execução.
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24
+
+--- ÚLTIMOS BACKUPS ---
+Nenhum backup encontrado.
+
+--- ARQUIVOS DE LOG ---
+-rw-r--r-- 1 root root 789 Jun  7 18:40 /app/estoque/logs/apache_2026-06-07.log
+-rw-r--r-- 1 root root 465 Jun  7 18:39 /app/estoque/logs/estrutura_2026-06-07.log
+-rw-r--r-- 1 root root 287 Jun  7 18:42 /app/estoque/logs/monitoramento_2026-06-07.log
+
+--- ARQUIVOS PUBLICADOS NO APACHE ---
+total 12K
+drwxrwxr-x 2 1000 109 4.0K Jun  7 18:26 assets
+-rw-rw-r-- 1 1000 109 2.3K Jun  7 18:28 index.html
+-rw-rw-r-- 1 1000 109 1.8K Jun  7 18:28 sobre.html
+
+--- USUÁRIOS DO SISTEMA DE ESTOQUE ---
+
+--- GRUPOS DO SISTEMA DE ESTOQUE ---
+
+--- PERMISSÕES DOS DIRETÓRIOS ---
+total 24K
+drwxrwxr-x 2 1000  109 4.0K Jun  7 18:26 backups
+drwxr-xr-x 2 root root 4.0K Jun  7 18:39 fornecedores
+drwxrwxr-x 2 1000  109 4.0K Jun  7 18:43 logs
+drwxr-xr-x 2 root root 4.0K Jun  7 18:39 pedidos
+drwxr-xr-x 2 root root 4.0K Jun  7 18:39 produtos
+drwxr-xr-x 2 root root 4.0K Jun  7 18:39 relatorios
+
+========================================
+  Relatório gerado em: 07/06/2026 18:43:04
+========================================

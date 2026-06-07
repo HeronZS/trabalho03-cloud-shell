@@ -1,0 +1,19 @@
+[INFO] Instalando Apache...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apache2 is already the newest version (2.4.52-1ubuntu4.21).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+[OK] Apache instalado com sucesso.
+[INFO] Iniciando o serviço Apache...
+ * Starting Apache httpd web server apache2
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.2. Set the 'ServerName' directive globally to suppress this message
+ * 
+[OK] Apache está em execução.
+[INFO] Versão do Apache instalada:
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24
+[OK] Script 02_apache.sh finalizado.
