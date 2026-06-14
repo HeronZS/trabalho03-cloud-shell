@@ -11,9 +11,10 @@ SCRIPTS_DIR="/app/scripts"
 exibir_cabecalho() {
     clear
     echo "========================================"
-    echo "  Criado por: Seu Nome Aqui"
+    echo "  Criado por: Heron Zonta da Silva"
     echo "  Instituição: Unidavi"
     echo "  Tema: Sistema de Gestão de Estoque"
+    echo "  Data: $(date '+%Y-%m-%d %H:%M:%S')"
     echo "========================================"
     echo "       MENU DEVOPS CLOUD - ESTOQUE"
     echo "========================================"
